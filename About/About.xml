@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>Hydrogenium.Patch.ExpertiseAugmentation</packageId>
+	<name>Expertise Augmentation Patch - More Mechs</name>
+	<author>Hydrogenium</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>Expertise Augmentation模组提供了5个研究项目，使您能够提高机器人的技能。
+每个项目将技能提高2个技能点。此模组扩展了原模组对其他模组机械体的支持</description>
+
+	<modDependencies>
+		<li>
+			<packageId>StatistNo1.ExpertiseAugmentation</packageId>
+			<displayName>Expertise Augmentation</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2951046734</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+
+	<incompatibleWith>
+		<!-- <li>username.modname</li> -->
+	</incompatibleWith>
+
+	<loadBefore>
+
+	</loadBefore>
+	<loadAfter>
+		<li>StatistNo1.ExpertiseAugmentation</li>
+		<li>sov.det.surrogatemech</li>
+	</loadAfter>
+
+
+</ModMetaData>
